@@ -315,8 +315,8 @@ FOR IPAD AND TABLETS
   .image {
     display: block;
     width: 260px;
-    height: 260px;
-    height: auto;
+
+    height: 195px;
   }
   .back img {
     width: 100%;

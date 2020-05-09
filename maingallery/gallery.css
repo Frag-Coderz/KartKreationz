@@ -112,9 +112,8 @@ body {
 
 .image {
   display: block;
-  width: 330px;
-  height: 330px;
-  height: auto;
+  width: 260px;
+  height: 195px;
 }
 
 .overlay {
