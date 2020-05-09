@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="b1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm&family=Josefin+Slab:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+            <img src="../03 KartKreationz Logo.png" alt="">
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li><a href="../home/home.html">Home</a></li>
+              <li><a href="../about us/about.html">About Us</a></li>
+              <li><a href="../services/services.html">Services</a></li>
+              <li><a href="../maingallery/gallery.html">Gallery</a></li>
+              <li><a href="../testimonial/test.html">Testimonials</a></li>
+              <li><a href="b1.html">Kart's Blog Index</a></li>
+              <li>
+                <a href="../kartinaction/kartaction.html">Kart in Action</a>
+              </li>
+              <li><a href="../contact/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <section class="kartblog">
+      <div class="me1">
+        <center>
+          <a href="#">
+            <i class="pin"></i>
+            <img
+              src="https://drive.google.com/uc?id=1tfJtq82GHN-p0lPUH_YRcTU_d-fs8LsB"
+            />
+            <h1>Kart's Blog Index</h1>
+          </a>
+        </center>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 col-sm-12" id="m1">
+          <a href="blogs/blog1.html">
+            <i class="pin"></i>
+            <img
+              src="https://drive.google.com/uc?id=1R9ENvJoT9A4FK1jBO8YPGr7_BpdLeD1j"
+              alt=""
+            />
+            <h2>Wow Celebration</h2>
+          </a>
+        </div>
+        <!--<div class="col-lg-6 col-md-12 col-sm-12" id="m2">
+          <a href="#">
+            <i class="pin"></i>
+            <img src="c2.png" alt="" />
+            <h2>Title #1</h2>
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12" id="m3">
+          <a href="#">
+            <i class="pin"></i>
+            <img src="c4.png" alt="" />
+            <h2>Title #1</h2>
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12" id="m4">
+          <a href="#">
+            <i class="pin"></i>
+            <img src="c3.png" alt="" />
+            <h2>Title #1</h2>
+          </a>
+        </div>-->
+      </div>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $(".menu-icon").on("click", function () {
+            $("nav ul").toggleClass("showing");
+          });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop()) {
+            $("nav").addClass("black");
+          } else {
+            $("nav").removeClass("black");
+          }
+        });
+      </script>
+    </section>
+  </body>
+</html>

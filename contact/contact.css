@@ -1,0 +1,334 @@
+@font-face {
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+header {
+  width: 100%;
+  height: 8vh;
+}
+.wrapper {
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 0px 46px;
+}
+.logo img {
+  width: 180px;
+  height: 93px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  background-color: pink;
+}
+
+nav ul {
+  line-height: 20px;
+  list-style: none;
+  background: pink;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav .black ul {
+  background: pink;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Charm", cursive;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: pink;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: purple;
+  display: none;
+}
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #e5e5e5;
+  }
+
+  nav.black ul {
+    background: white;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+.head {
+  padding: 5%;
+}
+.container {
+  width: 100%;
+}
+.head h2 {
+  padding-top: 5%;
+  font-family: scriptinapro;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  font-weight: 800;
+  word-spacing: 0.2rem;
+  color: palevioletred;
+}
+#conh1 {
+  position: absolute;
+  top: 28%;
+  right: 90%;
+  font-family: "Charm", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #65350f;
+}
+#conh2 {
+  position: absolute;
+  top: 53%;
+  right: 95%;
+  font-family: "Charm", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #65350f;
+}
+.container img {
+  width: 50%;
+}
+.row img {
+  width: 60%;
+}
+
+.karhead h2 {
+  font-family: "Charm", cursive;
+  padding-left: 6%;
+  color: brown;
+  position: absolute;
+  top: 53%;
+}
+h2 {
+  font-family: "Charm", cursive;
+  color: whitesmoke;
+  letter-spacing: 0.2rem;
+}
+h3 {
+  font-family: scriptinapro;
+  letter-spacing: 1rem;
+  word-spacing: 0.5rem;
+  color: whitesmoke;
+}
+.karthead h1 {
+  padding-top: 10%;
+  font-family: scriptinapro;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  word-spacing: 0rem;
+  color: brown;
+}
+p {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.1rem;
+  color: brown;
+}
+#con2 {
+  padding-left: 10%;
+}
+#con1 {
+  padding-top: 1%;
+  padding-left: 30%;
+}
+.row input[type="text"] {
+  background-color: white;
+}
+@media only screen and(max-width:1000px) and (min-width: 401px) {
+  .head h2 {
+    padding-top: 30%;
+  }
+  .row img {
+    width: 60%;
+  }
+  .karhead h2 {
+    font-family: "Charm", cursive;
+    padding-left: 6%;
+    color: brown;
+    position: absolute;
+    top: 60%;
+  }
+}
+
+/* FOOTER SECTION */
+.footer-section {
+  background-color: #f9f7f4;
+  height: 70vh;
+}
+.footer {
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-right: 2%;
+  border-bottom: 1px solid #978e98;
+  padding-bottom: 5%;
+}
+
+.logo-header {
+  color: #800098;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  font-family: "Charm", cursive;
+}
+
+.about-info {
+  margin-top: 2rem;
+  line-height: 0.5;
+}
+
+.about-info p {
+  color: #978e98;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Josefin Slab", serif;
+}
+
+.event-planner-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  left: 40%;
+  margin-top: 5rem;
+  font-family: "Charm", cursive;
+}
+.see-more-button1 {
+  text-decoration: none;
+  font-size: 1rem;
+  color: palevioletred;
+  box-sizing: border-box;
+  border: 1px solid palevioletred;
+  padding: 15px 40px;
+  border-radius: 30px;
+  left: 20%;
+}
+
+.see-more-button1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: palevioletred;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.gallery-container-button-container1 {
+  width: 100%;
+  text-align: left;
+  margin: 3rem;
+  padding-top: 3%;
+}
+.list-items {
+  margin-top: 2rem;
+}
+
+.list-items p {
+  color: #978e98;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  font-family: "Josefin Slab", serif;
+}
+
+.list-items p:hover {
+  color: palevioletred;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.about-us-header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.instagram-header {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  font-family: "Charm", cursive;
+}
+
+.insta-images {
+  width: 100%;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.footer-bottom p {
+  font-size: 1.3rem;
+  color: #978e98;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  padding: 30px;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  color: palevioletred;
+  border-radius: 50%;
+}
+.fa-facebook:hover {
+  background: palevioletred;
+  color: white;
+}
+.fa-twitter:hover {
+  background: palevioletred;
+  color: white;
+}
+.fa-instagram:hover {
+  background: palevioletred;
+  color: white;
+}

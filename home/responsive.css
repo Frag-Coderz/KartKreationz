@@ -1,0 +1,132 @@
+/* 
+FOR IPAD AND TABLETS */
+
+@media (max-width: 1024px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: white;
+  }
+
+  .showing {
+    max-height: 50em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    background: pink;
+    color: purple;
+  }
+  #ab p {
+    text-align: center;
+  }
+  .about-us-heading {
+    font-size: 9rem;
+  }
+  .gallery-sub-heading {
+    font-size: 6rem;
+  }
+  .slide .slide__img img {
+    height: 80vh;
+  }
+}
+
+/* FOR XL MOBILE SCREENS */
+
+@media (max-width: 768px) {
+  .slide__content {
+    background: rgba(256, 121, 131, 0.7);
+    border-radius: 20rem;
+    padding: 0;
+    width: 33rem;
+    height: 33rem;
+  }
+  .slide .slide__content {
+    left: 30%;
+  }
+  .slide .slide__content--headings h2 {
+    font-size: 2.8rem;
+  }
+  .slide .slide__content--headings p {
+    font-size: 2.8rem;
+  }
+  .border {
+    height: 27rem;
+    width: 27rem;
+  }
+  .slide .slide__img img {
+    height: 75vh;
+  }
+
+  .footer-section {
+    height: 100%;
+  }
+  .quote-section {
+    width: 80%;
+  }
+  #ab p {
+    font-size: 2rem;
+  }
+  .gal h1 {
+    font-size: 9rem;
+  }
+}
+
+/* FOR SMALL MOBILE SCREENS */
+
+@media screen and (max-width: 414px) {
+  .slide__content {
+    background: rgba(244, 121, 131, 0.7);
+    border-radius: 50%;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+  }
+  .slide .slide__content--headings h2 {
+    font-size: 1.5rem;
+  }
+  .slide .slide__content--headings p {
+    font-size: 1.5rem;
+  }
+  .slide .slide__img img {
+    height: 72vh;
+  }
+  .border {
+    width: 16rem;
+    height: 16rem;
+  }
+  .quote-section {
+    width: 100%;
+  }
+  .about-us-heading {
+    font-size: 7rem;
+  }
+  .gal h1 {
+    font-size: 7rem;
+  }
+  .gallery-sub-heading {
+    font-size: 4rem;
+  }
+  .gallery-para {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer-bottom p {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="kartaction.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm&family=Josefin+Slab:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <title>Kart In Action</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+            <img src="../03 KartKreationz Logo.png" alt="">
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li><a href="../home/home.html">Home</a></li>
+              <li><a href="../about us/about.html">About Us</a></li>
+              <li><a href="../services/services.html">Services</a></li>
+              <li><a href="../maingallery/gallery.html">Gallery</a></li>
+              <li><a href="../testimonial/test.html">Testimonials</a></li>
+              <li><a href="../blog/b1.html">Kart's Blog Index</a></li>
+              <li><a href="kartaction.html">Kart in Action</a></li>
+              <li><a href="../contact/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <section class="kartinaction">
+      <div class="me1">
+        <center>
+          <a href="#">
+            <i class="pin"></i>
+            <img src="https://drive.google.com/uc?id=1xZ4QzQ2UVDemws3PR-qrK5YJnwhv5OBI" />
+            <h1>#Kart in Action</h1>
+          </a>
+        </center>
+      </div>
+      <div class="kia">
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1P7Kgkc8DktuaMGeM3YUzWzEraGkx64Rc" alt="" id="k2" />
+        </div>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1F9ZafrHXcsG6cZxY4Zua-d60EqAjYQ8O" alt="" id="k6" />
+        </div>
+        <a href="#">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1u5sfzKf3M4bYjBPHXNVJ_LXkdT8fxlU1" alt="" class="k1" />
+        </a>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1FhbrxgpPDFwFrrUuSN_wtXKQAfFT_7A7" alt="" id="k3" />
+        </div>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1T_ghzn2eq-j4Y__n-k-JO1xSzP1as24X" alt="" id="k4" />
+        </div>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1e3Z5oDha27r0A1qkXdAuy3HM3Df6vR2P" alt="" id="k5" />
+        </div>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1FiRoYmMziB0Jr569kXZJX4XHQx0eUgLQ" alt="" id="k7" />
+        </div>
+        <div class="m1">
+          <i class="pin"></i>
+          <img src="https://drive.google.com/uc?id=1PUAQJUElq1YRlO9uOnLimSniFWZN6Knu" alt="" id="k8" />
+        </div>
+        
+      </div>
+    </section>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".menu-icon").on("click", function () {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
+  </body>
+</html>

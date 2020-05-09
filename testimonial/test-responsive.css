@@ -1,0 +1,88 @@
+/* 
+FOR IPAD AND TABLETS */
+
+@media (max-width: 1024px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: white;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+  .heading h1 {
+    padding-top: 14%;
+    padding-left: 3%;
+  }
+  .center {
+    padding-top: 1%;
+    padding-left: 3%;
+  }
+  .menu-icon {
+    display: block;
+    color: purple;
+    background: pink;
+  }
+  /* .arrow_prev {
+    position: absolute;
+    top: 38%;
+    left: 42%;
+  }
+  .arrow_next {
+    position: absolute;
+    top: 38%;
+    right: 40%;
+  } */
+}
+
+/* FOR XL MOBILE SCREENS */
+
+@media (max-width: 768px) and (min-width: 415px) {
+  .footer-section {
+    height: 100%;
+  }
+  .arrow_prev {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+  }
+  .arrow_next {
+    position: absolute;
+    top: 45%;
+    right: 40%;
+  }
+}
+
+/* FOR SMALL MOBILE SCREENS */
+
+@media screen and (max-width: 414px) and (min-width: 360px) {
+  .footer-bottom p {
+    font-size: 1.3rem;
+  }
+  .arrow_prev {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+  }
+  .arrow_next {
+    position: absolute;
+    top: 45%;
+    right: 40%;
+  }
+}

@@ -1,0 +1,218 @@
+@font-face {
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+}
+.wrapper {
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 0px 46px;
+}
+.logo img {
+  width: 180px;
+  height: 93px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  line-height: 20px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: pink;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: pink;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Charm", cursive;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: pink;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: purple;
+  display: none;
+}
+body {
+  background-color: whitesmoke;
+}
+.back h1 {
+  font-size: 90px;
+  font-family: scriptinapro;
+  color: white;
+  word-spacing: 1rem;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top: 0%;
+  left: 18%;
+}
+.back img {
+  width: 100%;
+  height: auto;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.back .text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  height: 18%;
+  padding: 0%;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  padding-top: 5%;
+}
+
+.image {
+  display: block;
+  width: 330px;
+  height: 330px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  background-color: pink;
+  overflow: hidden;
+  width: 400px;
+  height: auto;
+  transition: 0.5s ease;
+  opacity: 0.8;
+}
+
+.container:hover .overlay {
+  height: 83.5%;
+  width: 92%;
+}
+#pack1:hover .overlay {
+  height: 83.5%;
+  width: 100%;
+}
+#pack2:hover .overlay {
+  height: 83.5%;
+  width: 100%;
+}
+#pack3:hover .overlay {
+  height: 83.5%;
+  width: 100%;
+}
+.text {
+  white-space: nowrap;
+  color: black;
+  font-size: 30px;
+  font-family: "Charm", cursive;
+  position: absolute;
+  overflow: hidden;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.button {
+  border-radius: 15px;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 60%;
+  left: 36%;
+  opacity: 1;
+  background-color: pink;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+  color: palevioletred;
+}
+.button:active {
+  background-color: black;
+  transform: translateY(4px);
+  color: palevioletred;
+  box-shadow: 0 5px white;
+}
+.gallery1 {
+  padding-top: 20%;
+}
+#m {
+  float: left;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  padding-left: 30px;
+  animation-duration: 4s;
+}
+#me {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  padding-right: 30px;
+  animation-duration: 4s;
+}
+#pack1 {
+  position: absolute;
+  right: 34.5%;
+  top: 60%;
+  animation-duration: 4s;
+}
+#pack2 {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  animation-duration: 4s;
+}
+#pack3 {
+  position: absolute;
+  top: 60%;
+  left: 13%;
+  animation-duration: 4s;
+}

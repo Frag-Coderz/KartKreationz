@@ -1,0 +1,518 @@
+/* FOR IPAD AND TABLETS 
+
+@media (max-width: 1024px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #e5e5e5;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    color: purple;
+  }
+  .back .test h1 {
+    top: 10%;
+    left: 28%;
+  }
+} */
+
+/* FOR XL MOBILE SCREENS 
+
+@media (max-width: 768px) {
+  .footer-section {
+    height: 100%;
+  }
+}
+
+/* FOR SMALL MOBILE SCREENS 
+
+@media screen and (max-width: 414px) {
+  .footer-bottom p {
+    font-size: 1.3rem;
+  }
+  .back h1 {
+    top: 30%;
+    left: 28%;
+  }
+} */
+@media (max-width: 1500px) and (min-width: 1024px) {
+  .back img {
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .back h1 {
+    font-size: 90px;
+    font-family: scriptinapro;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: -15%;
+    left: 27%;
+  }
+  .back .text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 35%;
+    padding: 0%;
+    text-align: center;
+  }
+  .container:hover .overlay {
+    height: 79%;
+    width: 92%;
+  }
+  #pack1:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #pack2:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #pack3:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #m {
+    float: left;
+    position: absolute;
+    top: 130%;
+    left: 13%;
+    padding-left: 30px;
+    animation-duration: 4s;
+  }
+  #me {
+    position: absolute;
+    top: 130%;
+    left: 60%;
+    padding-right: 30px;
+    animation-duration: 4s;
+  }
+  #pack1 {
+    position: absolute;
+    right: 37%;
+    top: 160%;
+    animation-duration: 4s;
+  }
+  #pack2 {
+    position: absolute;
+    top: 180%;
+    left: 60%;
+    animation-duration: 4s;
+  }
+  #pack3 {
+    position: absolute;
+    top: 180%;
+    left: 15%;
+    animation-duration: 4s;
+  }
+}
+/* 
+FOR IPAD AND TABLETS 
+
+@media (max-width: 1024px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #e5e5e5;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    color: purple;
+  }
+  .back .test h1 {
+    top: 10%;
+    left: 28%;
+  }
+}
+
+/* FOR XL MOBILE SCREENS 
+
+@media (max-width: 768px) {
+  .footer-section {
+    height: 100%;
+  }
+}
+
+/* FOR SMALL MOBILE SCREENS 
+
+@media screen and (max-width: 414px) {
+  .footer-bottom p {
+    font-size: 1.3rem;
+  }
+  .back h1 {
+    top: 30%;
+    left: 28%;
+  }
+} */
+@media (max-width: 2200px) and (min-width: 1024px) {
+  .back img {
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .back h1 {
+    font-size: 90px;
+    font-family: scriptinapro;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: -10%;
+    left: 28%;
+  }
+  .back .text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 35%;
+    padding: 0%;
+    text-align: center;
+  }
+
+  .container:hover .overlay {
+    height: 79%;
+    width: 92%;
+  }
+  #pack1:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #pack2:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #pack3:hover .overlay {
+    height: 79%;
+    width: 100%;
+  }
+  #m {
+    float: left;
+    position: absolute;
+    top: 130%;
+    left: 3.5%;
+    padding-left: 30px;
+    animation-duration: 4s;
+  }
+  #me {
+    position: absolute;
+    top: 130%;
+    left: 70%;
+    padding-right: 30px;
+    animation-duration: 4s;
+  }
+  #pack1 {
+    position: absolute;
+    right: 37%;
+    top: 160%;
+    animation-duration: 4s;
+  }
+  #pack2 {
+    position: absolute;
+    top: 180%;
+    left: 70%;
+    animation-duration: 4s;
+  }
+  #pack3 {
+    position: absolute;
+    top: 180%;
+    left: 5.5%;
+    animation-duration: 4s;
+  }
+}
+@media (max-width: 1023px) and (min-width: 700px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin: 0.8%;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: white;
+  }
+
+  .showing {
+    max-height: 50em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .image {
+    display: block;
+    width: 260px;
+    height: 260px;
+    height: auto;
+  }
+  .back img {
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .back h1 {
+    font-size: 70px;
+    font-family: scriptinapro;
+    color: white;
+    word-spacing: 0.7rem;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+  }
+  .back .text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 35%;
+    padding: 0%;
+    text-align: center;
+  }
+  .container:hover .overlay {
+    height: 80%;
+    width: 90%;
+  }
+  #pack1:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #pack2:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #pack3:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #m {
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 3.5%;
+    padding-left: 30px;
+    animation-duration: 4s;
+  }
+  #me {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    padding-right: 30px;
+    animation-duration: 4s;
+  }
+  #pack1 {
+    position: absolute;
+    right: 40%;
+    top: 135%;
+    animation-duration: 4s;
+  }
+  #pack2 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    animation-duration: 4s;
+  }
+  #pack3 {
+    position: absolute;
+    top: 80%;
+    left: 5.5%;
+    animation-duration: 4s;
+  }
+  .button {
+    border-radius: 15px;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 65%;
+    left: 30%;
+    opacity: 1;
+    background-color: pink;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+  }
+}
+
+/* @media  (max-width:1023px)and (min-width:500px){
+  .image {
+    display: block;
+    width: 260px;
+    height: 260px;
+    height: auto;
+  }
+  .back img {
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .back h1 {
+    font-size: 90px;
+    font-family: scriptinapro;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: -15%;
+    left: 35%;
+  }
+  .back .text {
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 35%;
+    padding: 0%;
+    text-align: center;
+  }
+  .container:hover .overlay {
+    height: 80%;
+    width: 90%;
+  }
+  #pack1:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #pack2:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #pack3:hover .overlay {
+    height: 80%;
+    width: 100%;
+  }
+  #m {
+    float: left;
+    position: absolute;
+    top: 100%;
+    left:3.5%;
+    padding-left: 30px;
+    animation-duration: 4s;
+  }
+  #me {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    padding-right: 30px;
+    animation-duration: 4s;
+  }
+  #pack1 {
+    position: absolute;
+    right: 40%;
+    top: 135%;
+    animation-duration: 4s;
+  }
+  #pack2 {
+    position: absolute;
+    top: 170%;
+    left: 60%;
+    animation-duration: 4s;
+  }
+  #pack3 {
+    position: absolute;
+    top: 170%;
+    left: 5.5%;
+    animation-duration: 4s;
+  }
+  .button {
+    border-radius: 15px;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 65%;
+    left: 30%;
+    opacity: 1;
+    background-color: pink;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+  }
+} */

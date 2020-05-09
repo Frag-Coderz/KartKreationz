@@ -1,0 +1,226 @@
+@font-face {
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+header {
+  width: 100%;
+  height: 8vh;
+}
+.wrapper {
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 0px 46px;
+}
+.logo img {
+  width: 180px;
+  height: 93px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  line-height: 20px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: pink;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Charm", cursive;
+}
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: white;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+.service {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.back h1 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  font-size: 8rem;
+  font-family: scriptinapro;
+  color: white;
+}
+.back img {
+  width: 100%;
+  height: 100%;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.back .text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 48%;
+  height: 27%;
+  text-align: center;
+}
+.row {
+  text-align: center;
+  color: brown;
+  position: relative;
+  padding-top: 5%;
+}
+#serve {
+  padding-top: 20%;
+}
+
+.service .row .col img {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+
+  overflow: hidden;
+}
+.service .row .col-4 img {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+
+  overflow: hidden;
+}
+
+b {
+  font-size: 30px;
+  font-family: "Charm", cursive;
+}
+#s4 {
+  padding-top: 1.5%;
+}
+#s8 {
+  padding-top: 5%;
+}
+#s10 {
+  padding-top: 4%;
+}
+#s11 {
+  padding-top: 7%;
+}
+
+@media (max-width: 760px) {
+  .back .text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    height: 45%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 401px) {
+  .back h1 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 8rem;
+    font-family: scriptinapro;
+    color: white;
+  }
+  .back img {
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .back .text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    height: 15%;
+    text-align: center;
+  }
+}

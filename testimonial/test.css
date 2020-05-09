@@ -1,0 +1,380 @@
+@font-face {
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+header {
+  width: 100%;
+  height: 8vh;
+}
+.wrapper {
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 0px 46px;
+}
+.logo img {
+  width: 180px;
+  height: 93px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 30px;
+  background-color: pink;
+}
+
+nav ul {
+  line-height: 20px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav .black ul {
+  background: pink;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Charm", cursive;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+body {
+  background-image: url(o.jpg);
+}
+.heading h1 {
+  padding-top: 10%;
+  font-size: 6rem;
+  font-weight: 200;
+  font-family: scriptinapro;
+}
+span #t4 {
+  font-size: 1.9rem;
+}
+#t6 {
+  font-size: 0.9rem;
+}
+#t3 {
+  padding-bottom: 2rem;
+}
+span,
+p {
+  padding-top: -10%;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.quote-section {
+  position: relative;
+  width: 75%;
+  height: 45%;
+  left: 14%;
+  top: 6%;
+  color: brown;
+  background: whitesmoke;
+  border: 7px solid black;
+  box-shadow: 0 14px 6px -6px black;
+}
+
+.quote:after {
+  content: "";
+  transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  position: absolute;
+  top: 100%;
+  left: 25px;
+  border-width: 50px 150px 0 20px;
+  border-style: solid;
+  border-color: whitesmoke transparent;
+  border-left: 8px solid black;
+  box-shadow: -13px 0px 6px -6px black;
+}
+span {
+  font-family: "Charm", cursive;
+  font-weight: 500;
+}
+
+cite {
+  display: block;
+  margin: 0rem 0 0;
+  padding-left: 4rem;
+  padding-top: -15%;
+  font-family: "Charm", cursive;
+  font-size: 1.2rem;
+}
+
+cite:before {
+  content: "- ";
+}
+
+.arrow_next {
+  position: absolute;
+  top: 20%;
+  left: 95%;
+}
+.arrow_prev {
+  position: absolute;
+  top: 20%;
+}
+#arr {
+  font-size: 50px;
+}
+@media only screen and(max-width:1000px) and(min-width:401px) {
+  .heading h1 {
+    padding-top: 15%;
+    font-size: 6rem;
+    font-weight: 200;
+    font-family: scriptinapro;
+  }
+  span #t4 {
+    font-size: 1.9rem;
+  }
+  #t6 {
+    font-size: 0.9rem;
+  }
+  #t3 {
+    padding-bottom: 2rem;
+  }
+  span,
+  p {
+    padding-top: -10%;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .quote-section {
+    position: relative;
+    width: 60%;
+    height: 35%;
+    left: 14%;
+    top: 6%;
+    color: brown;
+    background: whitesmoke;
+    border: 7px solid black;
+    box-shadow: 0 14px 6px -6px black;
+  }
+
+  .quote:after {
+    content: "";
+    transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    border-width: 50px 150px 0 20px;
+    border-style: solid;
+    border-color: whitesmoke transparent;
+    border-left: 8px solid black;
+    box-shadow: -13px 0px 6px -6px black;
+  }
+  .arrow_prev {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+  }
+  .arrow_next {
+    position: absolute;
+    top: 22%;
+    right: 30%;
+  }
+}
+
+.footer-section {
+  background-color: #f9f7f4;
+  height: 70vh;
+}
+.footer {
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-right: 2%;
+  border-bottom: 1px solid #978e98;
+  padding-bottom: -2%;
+}
+
+.logo-header {
+  color: #800098;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  font-family: "Charm", cursive;
+}
+
+.about-info {
+  margin-top: 2rem;
+  line-height: 0.5;
+}
+
+.about-info p {
+  color: #978e98;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Josefin Slab", serif;
+}
+
+.event-planner-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  left: 40%;
+  margin-top: 4rem;
+  font-family: "Charm", cursive;
+}
+.see-more-button1 {
+  text-decoration: none;
+  font-size: 1rem;
+  color: palevioletred;
+  box-sizing: border-box;
+  border: 1px solid palevioletred;
+  padding: 15px 40px;
+  border-radius: 30px;
+  left: 20%;
+}
+
+.see-more-button1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: palevioletred;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.gallery-container-button-container1 {
+  width: 100%;
+  text-align: left;
+  margin: 3rem;
+  padding-top: 3%;
+}
+.list-items {
+  margin-top: 2rem;
+}
+
+.list-items p {
+  color: #978e98;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  font-family: "Josefin Slab", serif;
+}
+
+.list-items p:hover {
+  color: palevioletred;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.about-us-header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.instagram-header {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  font-family: "Charm", cursive;
+}
+
+.insta-images {
+  width: 100%;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.footer-bottom p {
+  font-size: 1.3rem;
+  color: #978e98;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 0;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  padding: 30px;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  color: palevioletred;
+  border-radius: 50%;
+}
+.fa-facebook:hover {
+  background: palevioletred;
+  color: white;
+}
+.fa-twitter:hover {
+  background: palevioletred;
+  color: white;
+}
+.fa-instagram:hover {
+  background: palevioletred;
+  color: white;
+}

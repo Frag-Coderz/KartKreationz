@@ -1,0 +1,445 @@
+@font-face {
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+body {
+  background-image: url(https://drive.google.com/uc?id=1GjE7Uuk045qfsf1LmG2YdirBFm5jqcha);
+  position: relative;
+}
+header {
+  width: 100%;
+  height: 8vh;
+}
+.wrapper {
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 0px 46px;
+}
+.logo img {
+  width: 180px;
+  height: 93px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  background-color: pink;
+}
+
+nav ul {
+  line-height: 20px;
+  list-style: none;
+  background: pink;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav .black ul {
+  background: pink;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Charm", cursive;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: purple;
+  display: none;
+}
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #e5e5e5;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    background: pink;
+    color: purple;
+  }
+}
+.kartblog {
+  padding: 7%;
+}
+.me1 img {
+  width: 50%;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-4deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+}
+#m1 {
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(6deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  color: black;
+}
+#m2 {
+  -webkit-transform: rotate(6deg);
+  transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+#m3 {
+  -webkit-transform: rotate(6deg);
+  transform: rotate(3deg);
+  -moz-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+#m4 {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(-3deg);
+  -moz-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+a h1 {
+  position: absolute;
+  top: 42%;
+  left: 32%;
+  font-family: scriptinapro;
+  color: black;
+  font-size: 3.8rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.5rem;
+}
+a h2 {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  color: black;
+  font-family: "Charm", cursive;
+}
+.me1 .pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  z-index: 1;
+}
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 30%;
+  top: 8px;
+  z-index: 1;
+}
+.pin:after {
+  background-color: #a31;
+  background-image: radial-gradient(
+    25% 25%,
+    circle,
+    hsla(0, 0%, 100%, 0.3),
+    hsla(0, 0%, 0%, 0.3)
+  );
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, 0.1),
+    inset 3px 3px 3px hsla(0, 0%, 100%, 0.2),
+    inset -3px -3px 3px hsla(0, 0%, 0%, 0.2),
+    23px 20px 3px hsla(0, 0%, 0%, 0.15);
+  content: "";
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+.pin:before {
+  background-color: hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 0 0.25em hsla(0, 0%, 0%, 0.1);
+  content: "";
+
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
+.row a:hover,
+.row a:focus {
+  transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position: absolute;
+  z-index: 5;
+}
+@media only screen and (max-width: 1200px) and (min-width: 401px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: white;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    background: pink;
+    color: purple;
+  }
+  .me1 img {
+    width: auto;
+    height: auto;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-4deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    padding: 20%;
+    padding-left: 36%;
+  }
+  a h1 {
+    position: absolute;
+    top: 44%;
+    left: 38%;
+    font-family: scriptinapro;
+    color: black;
+    font-size: 3.8rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+  }
+  .me1 .pin {
+    background-color: #aaa;
+    display: block;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    left: 60%;
+    top: 38%;
+    z-index: 1;
+  }
+  #m1 {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: black;
+  }
+  #m2 {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  }
+  #m3 {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(8deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+  #m4 {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(-3deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    position: absolute;
+    top: 90%;
+    left: 70%;
+  }
+  .pin {
+    background-color: #aaa;
+    display: block;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    left: 30%;
+    top: 5px;
+    z-index: 1;
+  }
+  a h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: black;
+    font-family: "Charm", cursive;
+  }
+}
+@media screen and(max-width:400px) and(min-width:0px) {
+  .me1 img {
+    width: auto;
+    height: auto;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-4deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    padding: 9%;
+    padding-left: 48%;
+  }
+  a h1 {
+    position: absolute;
+    top: 26%;
+    left: 48%;
+    font-family: scriptinapro;
+    color: black;
+    font-size: 3.8rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+  }
+  .me1 .pin {
+    background-color: #aaa;
+    display: block;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    left: 70%;
+    top: 9%;
+    z-index: 1;
+  }
+  #m1 {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: black;
+  }
+  #m2 {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  }
+  #m3 {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(8deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+  #m4 {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(-3deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    position: absolute;
+    top: 90%;
+    left: 70%;
+  }
+  .pin {
+    background-color: #aaa;
+    display: block;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    left: 30%;
+    top: 8px;
+    z-index: 1;
+  }
+  a h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: black;
+    font-family: "Charm", cursive;
+  }
+}

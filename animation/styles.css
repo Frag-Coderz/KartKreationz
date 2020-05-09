@@ -1,0 +1,219 @@
+@font-face{
+  src: url(ScriptinaPro.otf);
+  font-family: scriptinapro;
+}
+body{
+  background-image: url(bk.jpg);
+}
+.horseImage {
+  height: 50%;
+  width: 50%;
+  z-index: 10;
+  position: relative;
+  left: 360px;
+  top: 255px;
+}
+.baloonImage-1 {
+  z-index: 20;
+  position: absolute;
+  width: 7%;
+  left: 490px;
+  top: 380px;
+  transform: rotateZ(-40deg);
+}
+
+.baloonImage-2 {
+  z-index: 20;
+  position: absolute;
+  width: 7%;
+}
+.baloonImage-3 {
+  z-index: 20;
+  position: absolute;
+  width: 7%;
+  left: 620px;
+  top: 330px;
+}
+.baloonImage-4 {
+  z-index: 20;
+  position: absolute;
+  width: 7%;
+  left: 740px;
+  top: 380px;
+  transform: rotateZ(40deg);
+}
+
+.horse-transition {
+  position: relative;
+  top: 0;
+  right: 0;
+  animation: yourHorseAnimation 23s 1 0s linear;
+}
+
+.baloons-transition {
+  position: relative;
+  top: 0;
+  right: 0;
+  animation: yourBaloonAnimation 23s 1 0s linear;
+}
+.anitext{
+  position: absolute;
+  top:15%;
+  font-size: 2rem;
+  left: 28%;
+  animation-delay: 11.7s;  
+  animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+  font-weight: 300;
+  font-family: scriptinapro;
+  word-spacing: 1rem;
+  letter-spacing: 0.3rem;
+  color: #663300;
+}
+
+
+@keyframes yourHorseAnimation {
+  0% {
+    transform: translateX(-1200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(-700px);
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(xx) translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes yourBaloonAnimation {
+  0% {
+    transform: translateX(-1200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(-700px);
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  36% {
+    transform: translateX(0px) translateY(-140px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(0px) translateY(-230px);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(xx) translateX(0px) translateY(-230px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateX(0px) translateY(-230px);
+    opacity: 0;
+  }
+}
+@media (max-width:1000px) and (min-width:401px){
+  .horseImage {
+    height: 50%;
+    width: 50%;
+    z-index: 10;
+    position: relative;
+    left: 220px;
+    top: 255px;
+  }
+  .baloonImage-1 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 300px;
+    top: 330px;
+    transform: rotateZ(-40deg);
+  }
+  .baloonImage-3 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 365px;
+    top: 300px;
+  }
+  .baloonImage-4 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 430px;
+    top: 330px;
+    transform: rotateZ(40deg);
+  }
+  .anitext{
+    position: absolute;
+    top:15%;
+    font-size: 1.3rem;
+    left: 25%;
+    animation-delay: 11.7s;  
+    animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+    font-weight: 300;
+    font-family: scriptinapro;
+    word-spacing: 1rem;
+    letter-spacing: 0.3rem;
+    color: #663300;
+  }
+}
+@media (max-width:400px) and (min-width:0px){
+  .horseImage {
+    height: 70%;
+    width: 70%;
+    z-index: 10;
+    position: relative;
+    left: 38px;
+    top: 255px;
+  }
+  .baloonImage-1 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 87px;
+    top: 310px;
+    transform: rotateZ(-40deg);
+  }
+  .baloonImage-3 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 123px;
+    top: 290px;
+  }
+  .baloonImage-4 {
+    z-index: 20;
+    position: absolute;
+    width: 7%;
+    left: 165px;
+    top: 310px;
+    transform: rotateZ(40deg);
+  }
+  .anitext{
+    position: absolute;
+    top:15%;
+    font-size: .5rem;
+    left: 12%;
+    animation-delay: 11.7s;  
+    animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+    font-weight: 300;
+    font-family: scriptinapro;
+    word-spacing: .5rem;
+    letter-spacing: 0.3rem;
+    color: #663300;
+  }
+}
