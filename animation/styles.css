@@ -1,9 +1,9 @@
-@font-face{
+@font-face {
   src: url(ScriptinaPro.otf);
   font-family: scriptinapro;
 }
-body{
-  background-image: url(bk.jpg);
+body {
+  background-image: url(../bk.jpg);
 }
 .horseImage {
   height: 50%;
@@ -56,20 +56,19 @@ body{
   right: 0;
   animation: yourBaloonAnimation 23s 1 0s linear;
 }
-.anitext{
+.anitext {
   position: absolute;
-  top:15%;
+  top: 15%;
   font-size: 2rem;
   left: 28%;
-  animation-delay: 11.7s;  
-  animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+  animation-delay: 11.7s;
+  animation-timing-function: cubic-bezier(0.1, 0.5, 1, 0.5);
   font-weight: 300;
   font-family: scriptinapro;
   word-spacing: 1rem;
   letter-spacing: 0.3rem;
   color: #663300;
 }
-
 
 @keyframes yourHorseAnimation {
   0% {
@@ -125,7 +124,7 @@ body{
     opacity: 0;
   }
 }
-@media (max-width:1000px) and (min-width:401px){
+@media (max-width: 1000px) and (min-width: 401px) {
   .horseImage {
     height: 50%;
     width: 50%;
@@ -157,13 +156,13 @@ body{
     top: 330px;
     transform: rotateZ(40deg);
   }
-  .anitext{
+  .anitext {
     position: absolute;
-    top:15%;
+    top: 15%;
     font-size: 1.3rem;
     left: 25%;
-    animation-delay: 11.7s;  
-    animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+    animation-delay: 11.7s;
+    animation-timing-function: cubic-bezier(0.1, 0.5, 1, 0.5);
     font-weight: 300;
     font-family: scriptinapro;
     word-spacing: 1rem;
@@ -171,7 +170,7 @@ body{
     color: #663300;
   }
 }
-@media (max-width:400px) and (min-width:0px){
+@media (max-width: 400px) and (min-width: 0px) {
   .horseImage {
     height: 70%;
     width: 70%;
@@ -203,16 +202,16 @@ body{
     top: 310px;
     transform: rotateZ(40deg);
   }
-  .anitext{
+  .anitext {
     position: absolute;
-    top:15%;
-    font-size: .5rem;
+    top: 15%;
+    font-size: 0.5rem;
     left: 12%;
-    animation-delay: 11.7s;  
-    animation-timing-function: cubic-bezier(0.1,0.5,1,0.5);
+    animation-delay: 11.7s;
+    animation-timing-function: cubic-bezier(0.1, 0.5, 1, 0.5);
     font-weight: 300;
     font-family: scriptinapro;
-    word-spacing: .5rem;
+    word-spacing: 0.5rem;
     letter-spacing: 0.3rem;
     color: #663300;
   }
